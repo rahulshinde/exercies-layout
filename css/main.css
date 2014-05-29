@@ -1,0 +1,25 @@
+.container {
+    width: 90%;
+    max-width: 978px;
+    margin: 0 auto;
+}
+
+.highlight {
+    padding: 20px;
+    outline: 3px solid pink;
+}
+
+.highlight.inline {
+    padding: 6px 3px;
+}
+
+code,
+pre {
+    padding: 6px;
+    border: 1px solid #7a7a7a;
+    background-color: #dadada;
+}
+
+code {
+    padding: 0 3px;
+}
