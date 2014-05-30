@@ -11,6 +11,69 @@
 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
+		<style type="text/css">
+			.nav {
+				display: block;
+				padding:0;
+				margin: 0;
+				text-align: center;
+			}
+			
+			.nav li{
+				display: inline-block;
+				margin: 0 0 0 30px;
+			}
+			
+			.nav li:first-child{
+				margin-left: 0; 
+			}
+			
+			.nav a{
+				display: block;
+				padding: .5em 1em;
+				background-color: pink;
+			}
+			
+			.nav a:hover{
+				background-color: black;
+				color: black;
+			}
+			
+			.grid {
+				display: block;
+				width: 500px;
+				padding:0;
+				margin: 0;
+				text-align: justify;
+			}
+			
+			.grid li{
+				display: inline-block;
+				margin: 0 0 30px 0;
+			}
+			
+			.container {
+				width: 50%;
+				min-width: 300px;
+				max-width: 350px;
+				margin: auto;
+				background-color: grey;
+			}
+			
+			#example-01 {
+				position: relative;
+			}
+			
+			#example-01 .nav{
+				position: absolute;
+				bottom:0;
+				left:0;
+				z-index: 1;
+				width:100%;
+				background-color: #263258;
+				
+			}
+		</style>
 	</head>
 	<body>
 		<div class="intro">
